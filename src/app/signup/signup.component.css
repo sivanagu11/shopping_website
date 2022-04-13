@@ -1,0 +1,18 @@
+html{
+    background-color:#764ba2
+
+    ;
+}
+.content{
+    max-width: 500px;
+    margin: auto;
+    background-color:#fff;
+    padding: 2% 2%;
+}
+button{
+    background-color:#764ba2;
+    color:#fff;
+}
+button :hover{
+    color:blue;
+}

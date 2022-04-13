@@ -1,0 +1,41 @@
+body {
+
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+html {
+    background-color: aqua;
+}
+
+.header {
+    background-color: aqua;
+    height: 60px;
+}
+
+
+.heading {
+    padding-top: 15px;
+    font-size: 25px;
+}
+
+.content {
+    max-width: 400px;
+    margin: auto;
+    background-color: #fff;
+    padding: 2% 2%;
+}
+
+h3 {
+    color: black;
+}
+
+button {
+    background-color: aqua;
+    color: black;
+    padding: 10px;
+    margin-left: 120px;
+    font-size: 15px;
+
+}

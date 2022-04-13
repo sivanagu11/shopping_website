@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.header {
+    background-color: #01579B;
+    height: 60px
+}
+
+ul li {
+    list-style: none;
+    color: aliceblue;
+    display: inline-block;
+    float: right;
+    padding-right: 20px;
+    margin-top: -20px;
+    font-size: 20px;
+}
+
+li a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+li a :hover{
+color: burlywood;
+}
+nav .title {
+    color: aliceblue;
+    padding-left: 30px;
+    font-size: 20px;
+    padding-top: 10px;
+}
+
