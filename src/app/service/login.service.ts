@@ -8,7 +8,7 @@ import { baseUrl } from 'src/environments/environment';
 export class LoginService {
   constructor(private http: HttpClient) { }
   saveusers(data: any): Observable<any> {
-    return this.http.post(`${baseUrl}users/login`,data)
+    return this.http.post("https://reqres.in/api/login",data)
      
   }
   

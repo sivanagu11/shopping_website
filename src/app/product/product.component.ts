@@ -9,6 +9,7 @@ import { ApiService } from '../service/api.service';
 })
 export class ProductComponent implements OnInit {
   public productlist: any;
+
   constructor(private api: ApiService) { }
 
   ngOnInit(): void {

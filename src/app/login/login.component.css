@@ -6,14 +6,10 @@ body {
 }
 
 html {
-    background-color: aqua;
+    background-image: url(../../assets/images/images.png);
+    background-size: cover;
+    background-repeat:no-repeat;
 }
-
-.header {
-    background-color: aqua;
-    height: 60px;
-}
-
 
 .heading {
     padding-top: 15px;
@@ -25,6 +21,7 @@ html {
     margin: auto;
     background-color: #fff;
     padding: 2% 2%;
+    margin-top: 50px;
 }
 
 h3 {
@@ -32,7 +29,7 @@ h3 {
 }
 
 button {
-    background-color: aqua;
+    background-color:lightskyblue;
     color: black;
     padding: 10px;
     margin-left: 120px;

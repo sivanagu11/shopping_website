@@ -1,5 +1,5 @@
 <html>
-<div class="container-float ">
+<div class="container-float">
     <!--Navigation Bar-->
     <div class="header">
         <div class="heading">
@@ -9,25 +9,27 @@
 </div>
 
 <!--Grid-->
-<div class="container text-center" class="margin">
+<div class="container text-center" class="margin" >
 
     <!--Template driven form-->
-    <form [formGroup]="exform" (ngSubmit)=" loginData()" class="content">
-        <h3 class="text-center">Login Form</h3>
+    <form [formGroup]="exform" (ngSubmit)=" loginData()" class="content" >
+        <h3 class="text-center">Login</h3>
 
         <!--Mobile Number-->
-        <div class=" mt-2 md-2 col-lg-12 col-12">
-            <input type="number" formControlName="mobile" class="form-control" placeholder="Enter Mobile number">
+        <div class=" mt-3  col-lg-12 col-12">
+            <input type="text" formControlName="email" class="form-control" placeholder="Enter email" required>
+            
         </div>
 
         <!--Password-->
-        <div class=" mt-2 md-2 col-lg-12 col-12">
-            <input type="password" formControlName="password" class="form-control" placeholder="Enter Password">
+        <div class=" mt-4 col-lg-12 col-12">
+            <input type="password" formControlName="password"  class="form-control" placeholder="Enter Password" required>
+            
         </div>
 
 
         <!--Login Button-->
-        <div class=" mt-3 col-lg-12 col-12">
+        <div class=" mt-4 col-lg-12 col-12">
             <button class="btn">Login</button>
         </div>
 

@@ -5,7 +5,9 @@
                 <img src="{{item.image}}">
                 <p style="white-space:nowrap; overflow:hidden; text-overflow: ellipsis; max-width: 100ch;">
                     {{item.description}}</p>
-                <p><strong>Price:</strong> ${{item.Price}}</p>
+                    <p>{{item.category}}</p>
+                <p><strong>Price:</strong> ${{item.price}}</p>
+            <p>{{item.rate}}</p>
                 <button class="btn btn">Add To Cart</button>
             </div>
         </ng-container>
